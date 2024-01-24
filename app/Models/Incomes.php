@@ -14,7 +14,7 @@ class Incomes extends Model
     // Fill Tabel
     public $timestamps = false;
     protected $fillable = [
-        'amount', 'description', 'date', 'id_category', 'created_at'
+        'amount', 'description', 'date', 'id_category'
     ];
 
     // Get All Data

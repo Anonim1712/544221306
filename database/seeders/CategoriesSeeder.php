@@ -15,11 +15,11 @@ class CategoriesSeeder extends Seeder
     {
         // Default Category Items
         $categories = [
-            'Food',
-            'Transportation',
-            'Clothing',
-            'Drink',
-            'Medical',
+            'makanan',
+            'transportasi',
+            'pakaian',
+            'minuman',
+            'obat',
         ];
 
         foreach ($categories as $category) {

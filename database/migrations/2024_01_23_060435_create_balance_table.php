@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('balance', function (Blueprint $table) {
             $table->id('id_balance');
-            $table->decimal(('amount'), 10, 2);
+            $table->bigInteger('amount');
             $table->timestamp('updated_at')->useCurrent();
         });
     }

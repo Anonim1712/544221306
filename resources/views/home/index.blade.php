@@ -1,19 +1,17 @@
 @extends('layouts.home')
 @section('content')
 <div class="container mt-5">
-  
-  {{-- Jumbotron --}}
+
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">
-        PayNote
+        Daeng Fund
       </h1>
       <p class="lead">
-        Pencatatan keuangan pribadi yang mudah dan sederhana.
+        informasi keuangan pribadi yang oke.
       </p>
     </div>
 
-    {{-- Button --}}
     <div class="container">
       <div class="row">
         <div class="col-md-6">

@@ -7,7 +7,7 @@
             <i class="fas fa-money-bill-wave"></i>
           </div>
           <div class="sidebar-brand-text mx-3">
-            @yield('title', 'PayNote')
+            @yield('title', 'Daeng Fund')
           </div>
         </a>
 
@@ -16,7 +16,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-          <a class="nav-link" href="">
+          <a class="nav-link" href="{{route('dashboard')}}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
         </li>
@@ -33,7 +33,7 @@
         <li class="nav-item">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Data Master</span>
+            <span>Atur data</span>
           </a>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">

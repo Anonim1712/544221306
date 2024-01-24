@@ -11,9 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('incomes', function (Blueprint $table) {
-            $table->id('id_income');
-            $table->decimal('amount', 8, 2);
+        Schema::create('expenses', function (Blueprint $table) {
+            $table->id('id_expense');
+            $table->bigInteger('amount');
             $table->date('date');
             $table->timestamp('created_at')->useCurrent();
             $table->string('description', 255);
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('incomes');
+        Schema::dropIfExists('expenses');
     }
 };
